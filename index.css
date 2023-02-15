@@ -1,0 +1,429 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.huddy{
+    width: 120px;
+    height: 30px;
+    vertical-align: top;
+    
+}
+
+.try{
+    color: #FF8FD8;
+    width: 100px;
+    border-radius: 70px;
+    border-color: #FF8FD8;
+    border-style: solid;
+    background-color: white;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px 1px rgba(255,192,203,0.9);
+    font-weight: bold;
+    font-size: 10px;
+    height: 25px;    
+    transition: 0.25s;
+}
+
+.try:hover{
+    border-color: rgb(255,210,253); 
+    box-shadow: 1px 1px 5px 1px rgba(255,210,253,0.9);
+}
+
+.head{
+    display: grid;
+    grid-template-columns: 5fr 0fr;
+    padding-top: 27px;
+    padding-left: 22px ;
+    padding-right: 22px;
+    }
+
+.huddle{
+    display: inline-block;
+    
+    
+}
+
+.free{
+    justify-content: end;
+}
+
+/* header part above */
+
+.text{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+
+
+.para1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3vw;
+    font-weight: 600;
+    text-align: center;
+    margin: 0;
+    margin-top: 70px;
+}
+
+.des1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1vw;
+    font-weight: bolder;
+    color: grey;   
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 35%;
+    margin-left: 30%;
+    margin-right: 25%;
+    margin-top: 20px;
+}
+
+
+
+.get{
+    background-color: #ff5dc6;
+    color: white;
+    width: 14.6vw;
+    height: 40px;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px 10px rgba(255,193,203,.3);
+    cursor: pointer;
+    transition: 0.25s;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+.get:hover{
+    background-color: lightpink;
+
+}
+
+.screen-mockup{
+    width: 1vw;
+    margin-left: 140px;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+/* part 2 */
+
+.both{
+    display: grid;
+    grid-template-columns: repeat(1fr, 7px, 1fr);
+    gap: 10px;
+    grid-auto-rows: 100px;
+    grid-template-areas:
+      "a a a b c c c"
+      "a a a b c c c";
+
+
+}
+
+.left{
+    width: 150px;
+    float: right;
+    grid-area: a;
+    justify-self: end;
+    vertical-align: top;
+}
+
+.pink{
+    width: 5vw;
+    display: block;
+}
+
+.txt{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0;
+    width: 150px;
+    margin-right: 0px;
+    text-align: center;
+
+}
+
+.cf{
+    font-size: 15px;
+    font-weight: 580;
+    color: grey;
+    margin: 0;
+    margin-top: 5px;
+    text-align: center;
+    
+}
+
+/* end of part 2 */
+
+.right{
+    width: 150px;
+    float: right;
+    grid-area: c;
+    justify-self: start;
+
+}
+
+.pink2{
+    width: 3.5vw;
+    display: block;
+}
+
+.txt2{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0;
+    width: 150px;
+    margin-right: 0px;
+    text-align: center;
+
+}
+
+.cf2{
+    font-size: 15px;
+    font-weight: 580;
+    color: grey;
+    margin: 0;
+    margin-top: 5px;
+    text-align: center;
+    
+}
+
+.summa{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.below{
+    width: 100%;
+    margin: 0;
+}
+
+.page2{
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  /* gap: 10px;
+  grid-auto-rows: 100px; */
+  grid-template-areas:
+    "a a a a b b b"
+    "a a a a b b b";
+    background-color: hsl(207, 100%, 98%);
+    margin-top: 0px;
+
+}
+
+.pagleft{
+    grid-area: a;
+    width: 500px;
+    display: inline-block;
+    margin-left: 25px;
+    padding-top: 95px;
+}
+
+
+
+.pageright{
+    grid-area: b;
+    display: inline-block;
+    
+}
+
+.grw{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.gen{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 150;
+    font-size: 18px;
+    color: rgb(70, 70, 70);
+    margin: 0;
+    margin-top: 3px;
+
+}
+
+.bot{
+    width: 100%;
+}
+
+
+/* page3 */
+
+.page3{
+    display: grid;
+    grid-template-columns: repeat(1fr 8);
+    /* gap: 10px;
+    grid-auto-rows: 100px; */
+    grid-template-areas:
+      "a a a a a a b"
+      "a a a a a a b";
+      margin-top: 80px;
+  
+  }
+  
+  .pagleft3{
+      grid-area: b;
+      width: 500px;
+      display: inline-block;
+      margin-left: 25px;
+      padding-top: 95px;
+      text-align: justify;
+
+
+  }
+  
+  
+  
+.pageright3{
+    grid-area:a;
+    padding-left: 70px;
+      
+  }
+  
+  .grw3{
+      font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+      font-size: 35px;
+      font-weight: 700;
+      margin-bottom: 0;
+      text-align: justify;
+  }
+  
+  .gen3{
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 150;
+      font-size: 18px;
+      color: rgb(70, 70, 70);
+      margin: 0;
+      margin-top: 3px;
+      text-align: justify;
+
+  
+  }
+
+
+  /* last */
+
+.lowest{
+    background-color: hsl(192, 100%, 9%);
+    padding-bottom: 350px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* gap: 10px;
+    grid-auto-rows: 100px; */
+    grid-template-areas:
+    "a a a a b b b b"
+    "a a a a b b b b"
+    "c c c c d d d d"
+    "c c c c d d d d";
+    align-items: center;
+
+    
+}
+
+.bothud{
+    margin: 0;
+    padding-top: 100px;
+    padding-left: 50px;
+    width: 300px;
+    display: inline-block;
+    grid-area: a;
+
+}
+
+.con{
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 0px;
+    padding-bottom: px;
+    padding-left: 40px;
+    grid-area: c;
+}
+
+.no{
+    font-weight: bolder;
+    color: white;
+    vertical-align: top;
+    display: inline-block;
+    padding-left: 5px;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.mail{
+    display: inline-block;
+    font-weight: bolder;
+    color: white;
+    padding-left: 5px;
+    vertical-align: top;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+
+
+
+
+/* Newsletter */
+
+
+.letter{
+    width: 480px;
+    margin: 10px;
+    grid-area: b;
+    padding-top: 150px;
+}
+
+.news{
+    font-size: 40px;
+    font-weight: bolder;
+    color: white;
+}
+
+.news2{
+    font-size: 20px;
+    color: white;
+}
+
+
+
+/* ending */
+
+.poda{
+    width: 500px;
+    grid-area: d;
+    margin:10px;
+}
+
+.id{
+    border:none;
+    border-radius: 6px;
+    width: 250px;
+    height: 35px;
+    transition: 0.25s;
+}
+
+.id:active{
+    border: 1px;
+}
+
+.sub{
+    color: white;
+    background-color: hsl(322, 100%, 66%);
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    height: 35px;
+    font-size: medium;
+    font-weight: bolder;
+    transition: 0.25s;
+}
+
+.sub:hover{
+    background-color: #FF8FD8;
+    color: grey;
+}
