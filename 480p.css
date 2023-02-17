@@ -5,26 +5,37 @@
 1201px and more —  Extra large screens, TV */
 
 
-@media (max-width: 850px) {
+@media (max-width: 480px) {
     *{
         margin: 0;
         padding: 0;
     }
+    .head{
+        padding: 10px;
+        margin-right: 20px;
+
+    }
     .para1 {
         font-size: 25px;
         font-weight: 600;
+        padding-right: 10px;
     }
     .des1{
         margin-bottom: 20px;
-        width: 50%;
-        margin-left: 25%;
-        margin-right: 25%;    
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;  
+        font-size: 13x;  
     }
     .get{
-        width: 45%;
-        margin-left: 25%;
-        margin-right: 25%;   
+        width: 60%;
+        margin-left: 15%;
+        margin-right: 15%;   
     } 
+
+    .screen-mockup{
+        margin: 10%;
+    }
 
     .ns{
         width: 80%;
@@ -96,14 +107,18 @@
     .page3{
         display: block;
     }
-    /* .pageleft3{
-
-    } */
-    .pageright3{
+    .pagleft3{
+        margin: 0;
         width: 80%;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+    .pageright3{
+        width: 100%;
         display: block;
-        margin-top: 100px;
-        margin-bottom: 75px;
+        margin: 0;
+        margin-top: 80px;
+        padding: 0;
     }
 
     .grw3{
@@ -115,6 +130,17 @@
         font-size: 15px;
         text-align: center;
     }
+
+    .va{
+        width: 100%;
+    }
+
+
+    .summa1{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
 
 
     .lowest{
@@ -133,23 +159,24 @@
 
     .bothud{
         width: 45%;
-        padding: 25%;
+        padding: 20%;
         padding-bottom: 10%;
         padding-top: 10%;
     }
     .con{
         display: block;
-        padding-left: 25%;
-        padding-right: 25%;
+        padding-left: 15%;
+        padding-right: 15%;
     }
     .letter{
-        padding-top: 50px;
+        width: 100%;
     }
     .news{
-        font-size: 4vw;
+        font-size: 5vw;
     }
     .news2{
-        font-size: 2vw;
+        font-size: 3vw;
+        width: 90%;
     }
     .poda{
         width: 90%;
