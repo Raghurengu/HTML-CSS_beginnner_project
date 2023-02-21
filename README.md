@@ -1,4 +1,4 @@
+![](https://media0.giphy.com/media/SpopD7IQN2gK3qN4jS/giphy.gif)
 This is a webpage created with HTML & CSS. 
-Note:- This webpage is not yet completed.
 Kindly leave a suggestion.
 Thank you!!
